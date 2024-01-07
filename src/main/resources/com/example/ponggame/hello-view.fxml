@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane fx:id="layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="690.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ponggame.HelloController">
+   <children>
+      <Rectangle fx:id="paddle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="95.0" layoutX="650.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+      <Rectangle fx:id="up" arcHeight="5.0" arcWidth="5.0" fill="#b1adac" height="18.0" layoutX="-5.0" layoutY="-2.0" stroke="#b12c2c" strokeType="INSIDE" width="700.0" />
+      <Rectangle fx:id="down" arcHeight="5.0" arcWidth="5.0" fill="#b1adac" height="18.0" layoutX="-5.0" layoutY="486.0" stroke="#b12c2c" strokeType="INSIDE" width="700.0" />
+      <Line endX="52.000030517578125" endY="-143.0" layoutX="292.0" layoutY="160.0" startX="52.000030517578125" startY="326.9999694824219" stroke="#b1adac" strokeWidth="2.0" />
+   </children>
+</AnchorPane>
